@@ -752,7 +752,9 @@ function Unhide()
 	Minimised = false
 	Debounce = false
 end
-
+function Maximise()
+	Debounce = true
+	Topbar.ChangeSize.Image = "rbxassetid://"..10137941941
 
 
 
